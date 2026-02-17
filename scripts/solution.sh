@@ -1,3 +1,6 @@
+# --- Download the file ---
+wget https://cyberiumarena.com/lab/nx201/passwords.lst
+wget https://cyberiumarena.com/lab/nx201/file.txt
 # --- Phase 1: passwords.lst ---
 
 # Task 1
