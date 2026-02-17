@@ -13,7 +13,8 @@ Following a CERT alert regarding compromised credentials (`nate:1234`), this rep
 ## 📄 Primary Evidence
 The full, step-by-step laboratory submission containing annotated terminal screenshots and real-time command execution logs is available here:
 
-👉 **[Download Full Technical PDF Report](./annotated-Mid%20term%20Pentest.pdf)**
+👉 **[Download Full Technical PDF Report](./https://github.com/user-attachments/files/25368874/annotated-Mid.20term.20Pentest.pdf)**
+*
 
 ---
 
