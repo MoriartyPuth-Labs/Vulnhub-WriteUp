@@ -70,8 +70,8 @@ This lab utilized the following Regex symbols to refine data extraction:
 
 ## 📂 Installation
 1.  **Clone this repository:**
-    ```bash
-    git clone [https://github.com/your-username/cyberium-module1-analysis.git](https://github.com/your-username/cyberium-module1-analysis.git)
+    ```bash[
+    git clone https://github.com/MoriartyPuth/Linux-Data-Analysis-Lab
     ```
 2.  **Dataset Links:**
     * [passwords.lst](https://cyberiumarena.com/lab/nx201/passwords.lst)
