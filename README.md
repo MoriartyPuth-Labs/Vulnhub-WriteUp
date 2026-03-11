@@ -1,5 +1,12 @@
-# Network Security & Reconnaissance Lab
+# 🫧 Network Security & Reconnaissance Lab
 This repository serves as a learning resource for network security fundamentals. It documents practical exercises in reconnaissance, host discovery, password profiling, and system monitoring.
+
+## 🖥️ Lab Specifications
+* Target IP: 10.0.2.4
+* Attacker Platform: Kali Linux 
+* Environment: Oracle VirtualBox
+* Operating System: Linux
+* Primary Vectors: Network scanning, automated password generation, and payload delivery.
 
 ## 1. Stealth Network Scanning
 This exercise demonstrates how to perform a stealthy scan to identify open ports and the target operating system without completing the three-way handshake.
