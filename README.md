@@ -1,4 +1,7 @@
 # 🫧 Network Security & Reconnaissance Lab
+
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/a2eabac0-4e07-4725-b292-6558a05390c0" />
+
 This repository serves as a learning resource for network security fundamentals. It documents practical exercises in reconnaissance, host discovery, password profiling, and system monitoring.
 
 ## 🖥️ Lab Specifications
