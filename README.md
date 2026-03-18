@@ -1,4 +1,5 @@
 # 🫧 Lab N7: Web Exploitation & Database Siphon
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/2d535b4e-5727-4d28-a6ca-c0e0da4b7a00" />
 
 ## 🚩 Project Overview
 This repository documents the successful penetration test and data exfiltration of the **[Web Machine: (N7)](https://www.vulnhub.com/entry/web-machine-n7,756/)**, a vulnerable VM created by **Duty Mastr** and released on **November 3, 2021**. The mission utilized a custom exploitation framework, [bubble_siphon](https://github.com/MoriartyPuth/bubble-siphon) , to profile the host, identify hidden entry points, and "siphon" sensitive data and flags.
