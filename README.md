@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐶 VulnHub Bulldog: 1 — CTF Writeup
+# 🐶 VulnHub Bulldog: 1 Lab
 
 <br/>
 
