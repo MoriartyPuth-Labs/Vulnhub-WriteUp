@@ -1,6 +1,8 @@
 # VulnHub & TryHackMe Writeups
 
-Full writeups with proof-of-concept code, reproduction steps, and tooling notes.
+Full writeups with proof-of-concept code, reproduction steps, and tooling notes. Some labs are from AUPP programs.
+
+---
 
 ## Challenge Solutions
 
@@ -42,12 +44,16 @@ labs/
     └── README.md
 ```
 
+---
+
 ## Tooling used
 - Network Scanning & Discovery: `nmap`, `arp-scan`, `netdiscover`, `DirBuster`, `FFUF`
 - Exploitation & Payloads: `Metasploit`, `MSFVenom`, `sqlmap`, `Hydra`
 - Password Cracking & Profiling: `john`, `cupp`
 - Post-Exploitation Forensics: Custom frameworks `bubble-scanner` and `bubble-siphon`
 - Platform: Kali Linux, Oracle VirtualBox VM, Linux Target Servers
+
+---
 
 ## Lessons / takeaways
 - **Server Exploitation & Post-Exploitation** — Explored network automation scripting to scan `/24` subnets, fingerprint vulnerability exposures (Samba/vsftpd), and draft corporate-grade audit reports.
@@ -59,7 +65,18 @@ labs/
 - **N7** — Discovered hidden paths using endpoint brute-force and exploited time-based blind SQL injection with `sqlmap` to exfiltrate time-delayed flag responses.
 - **Bulldog 1** — Extracted leaked SHA-1 password hashes from browser source files, cracked them, bypassed Django WebShell command sanitizers using pipeline commands, and extracted a root password from binary string inspection.
 
+---
+
 ## Author
-Eav Puthcambo  
-AUPP Cybersecurity Programme  
-American University of Phnom Penh  
+
+<div align="center">
+
+**Eav Puthcambo**
+<br/>
+AUPP Cybersecurity Programme
+<br/>
+American University of Phnom Penh
+
+[![GitHub](https://img.shields.io/badge/GitHub-MoriartyPuth--Labs-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MoriartyPuth-Labs)
+
+</div>
