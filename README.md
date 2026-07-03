@@ -16,6 +16,7 @@ Full writeups with proof-of-concept code, reproduction steps, and tooling notes.
 | [DC-1](labs/DC1-Lab) | Drupal 7 Exploitation & SUID Privilege Escalation | 5 Flags captured (`/root/thefinalflag.txt`) |
 | [N7](labs/N7-Lab) | Blind Time-Based SQLi & Web Exploitation | `FLAG{N7:KSA_01}` |
 | [Bulldog 1](labs/Bulldog1-Lab) | Django command injection & Hash cracking | `congrats.txt` (Root shell access) |
+| [Linux Data Analysis & Text Processing](labs/Linux-Data-Analysis-Lab) | Linux CLI / Forensic Text Processing | Regex pattern extraction & log auditing |
 
 ---
 
@@ -40,8 +41,12 @@ labs/
 │   └── README.md
 ├── N7-Lab/
 │   └── README.md
-└── Bulldog1-Lab/
-    └── README.md
+├── Bulldog1-Lab/
+│   └── README.md
+└── Linux-Data-Analysis-Lab/
+    ├── README.md
+    ├── docs/
+    └── scripts/
 ```
 
 ---
@@ -64,6 +69,7 @@ labs/
 - **DC-1** — Exploited Drupalgeddon2 (CVE-2018-7600) via Metasploit, reset database admin accounts, and escalated privilege to root using SUID permissions on the `find` binary.
 - **N7** — Discovered hidden paths using endpoint brute-force and exploited time-based blind SQL injection with `sqlmap` to exfiltrate time-delayed flag responses.
 - **Bulldog 1** — Extracted leaked SHA-1 password hashes from browser source files, cracked them, bypassed Django WebShell command sanitizers using pipeline commands, and extracted a root password from binary string inspection.
+- **Linux Data Analysis** — Authored Bash text-processing pipelines using `grep`, `sed`, and `awk` with complex regex patterns to audit passwords and parse data files forensically.
 
 ---
 
