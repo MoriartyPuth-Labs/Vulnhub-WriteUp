@@ -8,22 +8,34 @@ Full writeups with proof-of-concept code, reproduction steps, and tooling notes.
 
 | Challenge Name | Category | Flag / Solution |
 | :--- | :--- | :--- |
-| [Server Exploitation & Post-Exploitation](labs/Server-Exploitation-Post-Exploitation-Lab) | Linux Server Exploitation & Forensic Audit | Completed Pentest Report (Samba/vsftpd exploit) |
-| [MSFVenom and Trojan Lab](labs/MSFVenom-and-Trojan-Lab) | Payload Engineering & Defense Evasion | Meterpreter RAT generation & signature evasion |
-| [Full Chain SQLi Case Study](labs/Full-Chain-SQLi-Case-Study) | Web Audit / SQL Injection | SQLi database dump of `users` table |
-| [Pickle Rick](labs/Pickle-Rick-Lab) | Command Injection & Privilege Escalation | Rick's 3 Ingredients (`mr. meeseek hair`, `1 jerry tear`, `fleeb juice`) |
-| [Network Security Reconnaissance](labs/Network-Security-Reconnaissance-Lab) | Subnet Scanning & Password Profiling | SYN scan discovery, `cupp` profiling, and Hydra SSH brute-force |
-| [DC-1](labs/DC1-Lab) | Drupal 7 Exploitation & SUID Privilege Escalation | 5 Flags captured (`/root/thefinalflag.txt`) |
-| [N7](labs/N7-Lab) | Blind Time-Based SQLi & Web Exploitation | `FLAG{N7:KSA_01}` |
-| [Bulldog 1](labs/Bulldog1-Lab) | Django command injection & Hash cracking | `congrats.txt` (Root shell access) |
-| [Linux Data Analysis & Text Processing](labs/Linux-Data-Analysis-Lab) | Linux CLI / Forensic Text Processing | Regex pattern extraction & log auditing |
+| [Server Exploitation & Post-Exploitation](aupp/Server-Exploitation-Post-Exploitation-Lab) | Linux Server Exploitation & Forensic Audit | Completed Pentest Report (Samba/vsftpd exploit) |
+| [MSFVenom and Trojan Lab](aupp/MSFVenom-and-Trojan-Lab) | Payload Engineering & Defense Evasion | Meterpreter RAT generation & signature evasion |
+| [Full Chain SQLi Case Study](aupp/Full-Chain-SQLi-Case-Study) | Web Audit / SQL Injection | SQLi database dump of `users` table |
+| [Pickle Rick](tryhackme/Pickle-Rick-Lab) | Command Injection & Privilege Escalation | Rick's 3 Ingredients (`mr. meeseek hair`, `1 jerry tear`, `fleeb juice`) |
+| [Network Security Reconnaissance](aupp/Network-Security-Reconnaissance-Lab) | Subnet Scanning & Password Profiling | SYN scan discovery, `cupp` profiling, and Hydra SSH brute-force |
+| [DC-1](vulnhub/DC1-Lab) | Drupal 7 Exploitation & SUID Privilege Escalation | 5 Flags captured (`/root/thefinalflag.txt`) |
+| [N7](vulnhub/N7-Lab) | Blind Time-Based SQLi & Web Exploitation | `FLAG{N7:KSA_01}` |
+| [Bulldog 1](vulnhub/Bulldog1-Lab) | Django command injection & Hash cracking | `congrats.txt` (Root shell access) |
+| [Linux Data Analysis & Text Processing](aupp/Linux-Data-Analysis-Lab) | Linux CLI / Forensic Text Processing | Regex pattern extraction & log auditing |
 
 ---
 
 Each folder contains a self-contained README.md writeup plus a runnable solver script or walkthrough.
 
 ```
-labs/
+tryhackme/
+└── Pickle-Rick-Lab/
+    └── README.md
+
+vulnhub/
+├── DC1-Lab/
+│   └── README.md
+├── N7-Lab/
+│   └── README.md
+└── Bulldog1-Lab/
+    └── README.md
+
+aupp/
 ├── Server-Exploitation-Post-Exploitation-Lab/
 │   ├── README.md
 │   └── Midterm_Pentest_Report.pdf
@@ -32,17 +44,9 @@ labs/
 │   └── MSFVenom_Payload_Lab.pdf
 ├── Full-Chain-SQLi-Case-Study/
 │   └── README.md
-├── Pickle-Rick-Lab/
-│   └── README.md
 ├── Network-Security-Reconnaissance-Lab/
 │   ├── README.md
 │   └── Final exam network.pdf
-├── DC1-Lab/
-│   └── README.md
-├── N7-Lab/
-│   └── README.md
-├── Bulldog1-Lab/
-│   └── README.md
 └── Linux-Data-Analysis-Lab/
     ├── README.md
     ├── docs/
