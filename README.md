@@ -6,19 +6,19 @@ Full writeups with proof-of-concept code, reproduction steps, and tooling notes.
 
 ## Challenge Solutions
 
-### 🖥️ VulnHub Writeups
+### VulnHub Writeups
 | Challenge Name | Platform / VulnVM | Flag / Solution |
 | :--- | :--- | :--- |
 | [DC-1](vulnhub/DC1-Lab) | Drupal 7 Exploitation & SUID Privilege Escalation | 5 Flags captured (`/root/thefinalflag.txt`) |
 | [N7](vulnhub/N7-Lab) | Blind Time-Based SQLi & Web Exploitation | `FLAG{N7:KSA_01}` |
 | [Bulldog 1](vulnhub/Bulldog1-Lab) | Django command injection & Hash cracking | `congrats.txt` (Root shell access) |
 
-### 🫧 TryHackMe Writeups
+### TryHackMe Writeups
 | Challenge Name | Category / Room | Flag / Solution |
 | :--- | :--- | :--- |
 | [Pickle Rick](tryhackme/Pickle-Rick-Lab) | Command Injection & Privilege Escalation | Rick's 3 Ingredients (`mr. meeseek hair`, `1 jerry tear`, `fleeb juice`) |
 
-### 🛡️ AUPP Program Coursework
+### AUPP Program Coursework
 | Challenge Name | Category | Flag / Solution |
 | :--- | :--- | :--- |
 | [Server Exploitation & Post-Exploitation](aupp/Server-Exploitation-Post-Exploitation-Lab) | Linux Server Exploitation & Forensic Audit | Completed Pentest Report (Samba/vsftpd exploit) |
