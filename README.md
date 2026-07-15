@@ -106,29 +106,6 @@ aupp/
 
 ---
 
-## Lessons / takeaways
-- **Server Exploitation & Post-Exploitation** — Explored network automation scripting to scan `/24` subnets, fingerprint vulnerability exposures (Samba/vsftpd), and draft corporate-grade audit reports.
-- **MSFVenom and Trojan Lab** — Configured bind/reverse TCP stagers, analyzed payload options, and forged file metadata to mask meterpreter binaries as legitimate tools to evade detection.
-- **Full Chain SQLi** — Utilized `bubble-scanner` for automated endpoint discovery and `sqlmap` to exploit SQLi vulnerability on Nginx servers, dumping plaintext user tables.
-- **Pickle Rick** — Combined command injection with basic shell redirection to gain initial access, followed by abusing sudo configuration gaps to elevate privileges to root.
-- **Network Reconnaissance** — Conducted stealth SYN scans, mapped local subnets via ARP, and profiled passwords dynamically using custom list generators (`cupp`) for automated SSH brute-forcing.
-- **DC-1** — Exploited Drupalgeddon2 (CVE-2018-7600) via Metasploit, reset database admin accounts, and escalated privilege to root using SUID permissions on the `find` binary.
-- **N7** — Discovered hidden paths using endpoint brute-force and exploited time-based blind SQL injection with `sqlmap` to exfiltrate time-delayed flag responses.
-- **Bulldog 1** — Extracted leaked SHA-1 password hashes from browser source files, cracked them, bypassed Django WebShell command sanitizers using pipeline commands, and extracted a root password from binary string inspection.
-- **Linux Data Analysis** — Authored Bash text-processing pipelines using `grep`, `sed`, and `awk` with complex regex patterns to audit passwords and parse data files forensically.
-- **VulnOS 1** — Exploited distcc daemon RCE for initial access, leveraged Webmin file disclosure to extract credentials, and pivoted via SSH.
-- **VulnOS 2** — Injected PHP webshell via OpenDocMan SQLi, cracked MD5 password hashes, and escalated to root using Ubuntu 12.04 kernel exploit (CVE-2015-1328).
-- **Holynix 1** — Bypassed input filters with SQLi, exploited LFI via log poisoning, uploaded tar.gz with SUID binary replacement to hijack system commands for root.
-- **Jigsaw 1** — Sniffed UDP traffic for hidden credentials, used port knocking to reveal SSH, cracked steganography with steghide, exploited XXE for file read, and developed custom ret2libc buffer overflow exploit.
-- **StarWars 1** — Generated password dictionary from website scraping with CeWL, cracked steganographic image with StegCrack, brute-forced SSH with Hydra, and escalated via writable nmap NSE scripts.
-- **Katana** — Escalated to root by exploiting Linux capabilities (cap_setuid) on python2.7, automating privilege escalation with a custom Python script.
-- **Sunset: Sunrise** — Exploited Weborf 0.12.2 directory traversal, leaked MySQL credentials via .mysql_history, and escalated via sudo wine with MSFPC payload.
-- **Sunset: Dusk** — Brute-forced MySQL root, wrote PHP webshell via SQL INTO OUTFILE, exploited sudo make to get user shell, and leveraged docker group membership for root.
-- **Super Mario** — Brute-forced SSH with Mario-themed wordlist, exploited OverlayFS kernel 3.13.0 local root (Mario.c), pivoted to second machine via internal network, and captured both flags.
-- **SkyDog** — Found 6 flags using ExifTool image analysis, robots.txt enumeration, fcrackzip password cracking, CeWL-generated wordlists from IMDB, Wireshark audio extraction, and writable cron script abuse for SUID escalation.
-
----
-
 <div align="center">
 
 ## 👤 Author
